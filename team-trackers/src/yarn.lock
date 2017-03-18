@@ -710,7 +710,7 @@ babel-plugin-transform-exponentiation-operator@^6.22.0:
     babel-plugin-syntax-exponentiation-operator "^6.8.0"
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-object-rest-spread@^6.22.0:
+babel-plugin-transform-object-rest-spread@^6.22.0, babel-plugin-transform-object-rest-spread@^6.23.0:
   version "6.23.0"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.23.0.tgz#875d6bc9be761c58a2ae3feee5dc4895d8c7f921"
   dependencies:
@@ -1932,6 +1932,12 @@ encodeurl@~1.0.1:
   version "1.0.1"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/encodeurl/-/encodeurl-1.0.1.tgz#79e3d58655346909fe6f0f45a5de68103b294d20"
 
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  dependencies:
+    iconv-lite "~0.4.13"
+
 engine.io-client@1.8.3:
   version "1.8.3"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/engine.io-client/-/engine.io-client-1.8.3.tgz#1798ed93451246453d4c6f635d7a201fe940d5ab"
@@ -2039,6 +2045,10 @@ es6-map@^0.1.3:
     es6-set "~0.1.3"
     es6-symbol "~3.1.0"
     event-emitter "~0.3.4"
+
+es6-promise@^4.1.0:
+  version "4.1.0"
+  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/es6-promise/-/es6-promise-4.1.0.tgz#dda03ca8f9f89bc597e689842929de7ba8cebdf0"
 
 es6-promise@~4.0.3:
   version "4.0.5"
@@ -2949,7 +2959,7 @@ https-proxy-agent@1:
     debug "2"
     extend "3"
 
-iconv-lite@0.4.15, iconv-lite@^0.4.5:
+iconv-lite@0.4.15, iconv-lite@^0.4.5, iconv-lite@~0.4.13:
   version "0.4.15"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
@@ -3241,6 +3251,13 @@ isobject@^2.0.0:
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
   dependencies:
     isarray "1.0.0"
+
+isomorphic-fetch@^2.2.1:
+  version "2.2.1"
+  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -3705,11 +3722,7 @@ lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
 
-lru-cache@2:
-  version "2.7.3"
-  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
-
-lru-cache@2.2.x:
+lru-cache@2, lru-cache@2.2.x:
   version "2.2.4"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/lru-cache/-/lru-cache-2.2.4.tgz#6c658619becf14031d0d0b594b16042ce4dc063d"
 
@@ -3963,6 +3976,13 @@ node-dir@^0.1.10:
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/node-dir/-/node-dir-0.1.16.tgz#d2ef583aa50b90d93db8cdd26fcea58353957fe4"
   dependencies:
     minimatch "^3.0.2"
+
+node-fetch@^1.0.1:
+  version "1.6.3"
+  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/node-fetch/-/node-fetch-1.6.3.tgz#dc234edd6489982d58e8f0db4f695029abcd8c04"
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-libs-browser@^1.0.0:
   version "1.1.1"
@@ -5517,7 +5537,7 @@ supports-color@1.2.0:
   version "1.2.0"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/supports-color/-/supports-color-1.2.0.tgz#ff1ed1e61169d06b3cf2d588e188b18d8847e17e"
 
-supports-color@3.1.2:
+supports-color@3.1.2, supports-color@^3.1.0:
   version "3.1.2"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/supports-color/-/supports-color-3.1.2.tgz#72a262894d9d408b956ca05ff37b2ed8a6e2a2d5"
   dependencies:
@@ -5527,7 +5547,7 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-supports-color@^3.1.0, supports-color@^3.2.3:
+supports-color@^3.2.3:
   version "3.2.3"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/supports-color/-/supports-color-3.2.3.tgz#65ac0504b3954171d8a64946b2ae3cbb8a5f54f6"
   dependencies:
@@ -5886,6 +5906,10 @@ vue@^2.2.1:
   version "2.2.1"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/vue/-/vue-2.2.1.tgz#ddbfd2f0caf38f374f5a36eea2e1edf25225b68e"
 
+vuex@^2.2.1:
+  version "2.2.1"
+  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/vuex/-/vuex-2.2.1.tgz#a42d0ce18cb0e0359258f84bfd76835ed468c185"
+
 watchpack@^1.2.0:
   version "1.3.1"
   resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/watchpack/-/watchpack-1.3.1.tgz#7d8693907b28ce6013e7f3610aa2a1acf07dad87"
@@ -5964,6 +5988,10 @@ webpack@^2.2.1:
     watchpack "^1.2.0"
     webpack-sources "^0.1.4"
     yargs "^6.0.0"
+
+whatwg-fetch@>=0.10.0:
+  version "2.0.3"
+  resolved "https://axags.artifactoryonline.com/axags/api/npm/virtual-mobilemiddleware/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 
 whet.extend@~0.9.9:
   version "0.9.9"
